@@ -1,0 +1,31 @@
+# macOS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vendor files
+vendor/
+
+# Composer
+composer.lock
+
+# Homestead
+Homestead.yaml
+Homestead.json
+
+# Sensitive files:
+.env.*.php
+.env.php
+.env
+public/storage
+public/hot
+storage/*.key
+storage/
+
+# Misc
+node_modules/
+npm-debug.log

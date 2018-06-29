@@ -15,6 +15,10 @@
 7. For testing, In Integration, enable Web Demo integration. Now replace the Web Demo integration code into the /resources/views/welcome.blade.php and then run the query from there.
 8. See myapp.com/list to find the list of expenses made.
 
+Demonstration of the app:
+
+[![Demo of Expense Tracker](http://img.youtube.com/vi/oqunD20LKCo/0.jpg)](http://www.youtube.com/watch?v=oqunD20LKCo "Demo of Expense Tracker")
+
 #### Example Output:
 ![Screenshot](https://i.imgur.com/hrhJxiE.png)
 

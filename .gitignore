@@ -13,6 +13,9 @@ vendor/
 # Composer
 composer.lock
 
+# Yarn
+yarn.lock
+
 # Homestead
 Homestead.yaml
 Homestead.json

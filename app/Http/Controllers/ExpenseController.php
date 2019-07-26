@@ -39,7 +39,7 @@ class ExpenseController extends Controller
         $data = $request->all();
         $params = array_get($data, 'queryResult.parameters');
         $amount = array_get($params, 'unit-currency.amount');
-        $location = array_flatten(array_get($params, 'location'))[0];
+        $location = array_get($params, 'location.business-name');
 
         // TODO: For future use
         $currency_type = array_get($params, 'unit-currency.currency');
